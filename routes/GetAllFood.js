@@ -14,9 +14,6 @@ const GetAllFood = async (req, res) => {
       }
   })
   });
-
-  // console.log(results);
-  // res.send(results);
 };
 
 module.exports = GetAllFood;
