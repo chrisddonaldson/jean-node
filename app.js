@@ -25,6 +25,9 @@ app.use(limiter);
 app.use(bodyParser.json());
 app.use((req, res, next) => {
   const allowedOrigins = [
+    "https://www.jeanbeta.com",
+    "https://app.jeanbeta.com",
+    "https://api.jeanbeta.com",
     "http://localhost:19006",
     "http://localhost:19005",
     "http://localhost:19004",
